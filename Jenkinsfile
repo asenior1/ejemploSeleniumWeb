@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Performance') {
+        stage('Prueba') {
             steps {
                 sh './mvnw test'
             }
