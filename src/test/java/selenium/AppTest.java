@@ -31,7 +31,7 @@ public class AppTest
         driver.navigate().to("https://www.google.com");
     }
 
-    @Test
+/*    @Test
     public void shouldAnswerWithTrue()
     {
         System.out.println("Iniciando Pruebas...");
@@ -76,5 +76,5 @@ public class AppTest
           Actions builder = new Actions(driver);
           builder.moveToElement(element).perform();
         }
-      }
+      }*/
 }
