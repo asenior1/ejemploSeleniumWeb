@@ -35,8 +35,8 @@ public class AppTest
     {
         System.out.println("Iniciando Pruebas...");
         WebElement searchbox = driver.findElement(By.name("q"));
-        searchbox.sendKeys("HandBook Devops");
+        searchbox.sendKeys("Libros DevOps");
         searchbox.submit();
-        assertEquals("HandBook Devops", driver.getTitle());
+        assertEquals("Libros DevOps", driver.getTitle());
     }
 }
