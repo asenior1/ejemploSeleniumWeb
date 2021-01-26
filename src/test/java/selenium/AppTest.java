@@ -41,7 +41,7 @@ public class AppTest
         //assertEquals("Libros DevOps", driver.getTitle());
     }
 
-/*    @Test
+    @Test
     public void compraLibroAmazon() {
         driver.get("https://www.google.com/");
         driver.manage().window().setSize(new Dimension(1227, 560));
@@ -76,5 +76,5 @@ public class AppTest
           Actions builder = new Actions(driver);
           builder.moveToElement(element).perform();
         }
-      }*/
+      }
 }
